@@ -1,0 +1,23 @@
+.parallax {
+    background: url(../img/center-background-foto.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax-section {
+    font-size: 38px;
+    color: #FFF;
+}
+.content-light {
+    font-size: 16px;
+}
+.button-par-sec {
+    width: ;
+    font-size: 12px;
+    color: #FFF;
+    font-family: var(--text-font);
+    text-decoration: none;
+}
+    

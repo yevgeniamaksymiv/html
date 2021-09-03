@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-font: 'Cormorant Garamond', serif;
+    --text-font: 'Open Sans', sans-serif;
+    --basic-color: #fff;
+    --dark-color: #2f2f2f;
+    --button-and-linkhover-color: #e0a178;
+    --navbar-color: #195551;
+    --content-color: #828282;
+    --content-color2: #f2f2ef;
+    scroll-behavior: smooth;
+}
+.main-title {
+    font-family: var(--main-font);
+    color: var(--basic-color);
+}
+h2 {
+    font-family: var(--main-font); 
+}
+h3 {
+    font-family: var(--main-font); 
+    color: var(--button-and-linkhover-color);
+}
+p {
+    font-family: var(--text-font);
+    color: var(--content-color);
+}
+em {
+    color: var(--content-color); 
+}
+.content-light {
+   color: var(--content-color2);
+}
+
+
+.container {
+    max-width: 1366px;
+    margin: auto; 
+}
+
