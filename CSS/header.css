@@ -1,0 +1,5 @@
+.header-section {
+    height: 100vh;
+    background: url(../img/header-background-foto.webp);
+    background-size: cover;  
+}
