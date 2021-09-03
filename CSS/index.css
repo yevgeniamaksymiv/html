@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-font: 'Open Sans', sans-serif;
+    --second-font: 'Cormorant Garamond', serif;
+    --basic-color: #fff;
+    --dark-color: #2f2f2f;
+    --button-and-linkhover-color: #e0a178;
+    --navbar-color: #195551;
+}
+
+
+.container {
+    max-width: 1366px;
+    margin: auto; 
+}
