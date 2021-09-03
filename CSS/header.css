@@ -6,7 +6,7 @@
 }
 
 .header-navbar-wrapper{
-    background-color: ;
+    background-color: var(--navbar-color);
 }
 .header-nav-bar {
     display: flex;
@@ -15,7 +15,7 @@
 }
 
 .header-logo-link {
-    min-width: 300px;
+    min-width: 200px;
 }
 
 .link-decoration {
@@ -25,4 +25,35 @@
 
 .link-decoration:hover {
     color: var(--button-and-linkhover-color)
+}
+
+
+.outlined_2wD {
+    width: 40px;
+    
+}
+.outer_bDW {
+    fill:rgba(255,255,255,0);
+}
+
+.border_2yy {
+    fill: #fff;
+}
+
+.logo_2gS {
+    fill: #fff;
+}
+
+
+
+.outer_bDW:hover {
+    fill:#fff;
+}
+
+.border_2yy:hover {
+    fill: #fff;
+}
+
+.logo_2gS:hover {
+    fill: rgb(0, 0, 0);
 }
