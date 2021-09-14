@@ -15,8 +15,9 @@
     --navbar-color: #195551;
     --content-color: #828282;
     --content-color2: #f2f2ef;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
+
 .main-title {
     font-family: var(--main-font);
     color: var(--basic-color);
@@ -42,6 +43,22 @@ em {
 
 .container {
     max-width: 1366px;
-    margin: auto; 
+    margin: 0 auto;
+    padding: 0 20px; 
 }
+/* @media (max-width: 1366px){
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px){
+    .container {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){
+    .container {
+        max-width: none;
+    }
+} */
 
