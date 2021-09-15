@@ -72,7 +72,7 @@ body > main > section.parallax.container > div > div.parallax-section > h2 > spa
     padding: 15px 32px;
     width: 230px;
     height: 55px;
-    margin: 60px 0;
+    margin: 60px 0 0 0;
     cursor: pointer;
     font-size: 12px;
     color: #FFF;
@@ -162,7 +162,8 @@ body > main > section.choosing.container > div > div.image-choose-block > img {
     }
     .cases-title {
         font-size: 54px!important;
-    } .cases-svg {
+    } 
+    .cases-svg {
         height: 70px;
     }
 }
@@ -177,13 +178,53 @@ body > main > section.choosing.container > div > div.image-choose-block > img {
     background-color: #1f6964;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    padding: 100px 40px;
 }
+ div.contacts > h2 {
+     color: #FFF;
+     font-size: 38px;
+     font-family: var(--main-font);
+ }
+ .contacts-list-text {
+     color: #E1E1E1;
+ }
+.contacts-list-title {
+     font-size: 24px;
+ }
+ .contacts {
+     display: flex;
+     flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: center;
+ }
+ .form {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
 @media (min-width: 768px){
     .section-contacts-form {
         flex-direction: row;
     }
+    .contacts-list-item {
+        /* display: flex;
+        flex-direction: row; */
+        display: table-cell;
+        align-items: center;
+        vertical-align: middle;
+        word-break: break-all;
+        padding: 15px 0; 
+    }
+    div.contacts > h2 {
+        font-size: 54px;
+    }
+    .contacts-list-title {
+        font-size: 30px;
+    }
 }
+
 .contact-input-form {
     line-height: 1.6;
     font-weight: 400;
@@ -192,8 +233,9 @@ body > main > section.choosing.container > div > div.image-choose-block > img {
     color: #828282;
 }
 .form-field {
-    text-align: left;
-    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
 }
 textarea {
     min-height: 150px;
@@ -201,7 +243,7 @@ textarea {
 }
 .input-form {
     background-color: rgb(53, 79, 80);
-    padding: 100px;
+    padding: 50px;
 }
 .ui-input--size-md {
     padding: 20px 50px;
@@ -209,7 +251,10 @@ textarea {
     font-size: 12px;
     line-height: 1.25;
 }
-
+#btn-form {
+    margin: 0;
+    width: 100%;
+}
 .text-footer {
     font-size: 16px;
     font-family: var(--text-font);
